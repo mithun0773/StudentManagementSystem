@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Student Management System</h2>
+
+      <div class="input-area">
+        <input type="text" id="name" placeholder="Student Name" />
+        <input type="text" id="dept" placeholder="Department(BCA,BSC,BCOM)" />
+        <input type="number" id="marks" placeholder="Marks" />
+
+        <button id="addBtn">Add Students</button>
+      </div>
+      <h3>Search Student</h3>
+      <input type="text" id="searchBox" placeholder="Search by name..." />
+
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Dept</th>
+            <th>Marks</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="studentTable"></tbody>
+      </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
